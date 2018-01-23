@@ -10,4 +10,4 @@ npm i -D assemble-webpack-loader
 
 ## Usage
 
-Please see [example](./example/README.md).
+Please see [example](./example).
