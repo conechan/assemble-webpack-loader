@@ -7,6 +7,7 @@ This is a example use in html-webpack-plugin.
 First you need to build the library.
 
 ```
+yarn
 yarn build
 ```
 
