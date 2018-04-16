@@ -24,7 +24,7 @@ function assembleLoader(content) {
     if (err) {
       throw new Error(err.message)
     }
-    callback(null, `module.exports = ${JSON.stringify(view.content)}`)
+    callback(null, view.content)
   })
 }
 

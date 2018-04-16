@@ -1,5 +1,7 @@
 # assemble-webpack-loader
 
+[![NPM version](https://img.shields.io/npm/v/assemble-webpack-loader.svg?style=for-the-badge)](https://npmjs.com/package/assemble-webpack-loader)
+
 > Webpack loader for [Assemble](https://github.com/assemble/assemble).
 
 ## Install
@@ -20,6 +22,7 @@ module.exports = {
       {
         test: /\.hbs$/,
         use: [
+          { loader: 'html-loader' },
           {
             loader: 'assemble-webpack-loader',
             options: {

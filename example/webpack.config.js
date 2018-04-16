@@ -15,6 +15,7 @@ module.exports = {
       {
         test: /\.hbs$/,
         use: [
+          { loader: 'html-loader' },
           {
             loader: path.resolve('../'),
             options: {
